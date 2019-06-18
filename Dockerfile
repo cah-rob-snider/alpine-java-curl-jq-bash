@@ -1,5 +1,5 @@
 FROM anapsix/alpine-java:latest
 
-RUN apk add --no-cache curl jq bash
+RUN apk add --no-cache curl jq bash zip
 
 CMD ["/bin/sh"]
